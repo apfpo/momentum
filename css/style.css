@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 50px black, 0 0 1em black;
+  transition: background-image 1s ease-in-out;
+  }
+.weather-icon {
+  font-size: 160px;
+  color: #44aadd;
+}
+.weather-icon:hover {
+  animation: shake 1.5s;
+}
+button {
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+  border-radius: 100px;
+  width: 180px;
+  height: 36px;
+  margin: 0.5rem;
+  background: #cccccc;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+button:hover{
+  opacity: 1;
+}
+.time {
+  font-size: 8rem;
+
+}
+.date {
+  font-size: 2rem;
+}
+span{
+  text-shadow: 1px 1px 50px black, 0 0 1em black;
+}
+h1 {
+  margin-bottom: 1rem;
+   text-shadow: 1px 1px 50px black, 0 0 1em black;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+   text-shadow: 1px 1px 50px black, 0 0 1em black;
+}
+
+@media (max-width: 700px) {
+  .time {
+    font-size: 6rem;
+  }
+  .date {
+  font-size: 1rem;
+}
+}
+:focus {
+outline: none;
+}
